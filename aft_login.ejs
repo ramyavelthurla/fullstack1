@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+}
+
+.movie h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
+    <header>
+        <h1>My Movie Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="movie-list">
+            <article class="movie">
+                <img src="movie1.jpg" alt="Movie 1 Poster">
+                <h2>Movie Title 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+            </article>
+            <article class="movie">
+                <img src="movie2.jpg" alt="Movie 2 Poster">
+                <h2>Movie Title 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+            </article>
+            <article class="movie">
+                <img src="movie3.jpg" alt="Movie 3 Poster">
+                <h2>Movie Title 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+            </article>
+            <!-- Add more movie articles as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Movie Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
